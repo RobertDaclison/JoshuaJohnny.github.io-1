@@ -92,55 +92,73 @@ body {
 
 </style>
 </head> 
-<style type="text/css">
+<style>
+  <div class="slider">
+	<input type="radio" name="slide_switch" id="id1"/>
+	<label for="id1">
+		<img src="48e35398.0.jpg" width="100"/>
+	</label>
+	<img src="48e35398.0.jpg"/>
+    
+	<input type="radio" name="slide_switch" id="id2" checked="checked"/>
+	<label for="id2">
+		<img src="N4898.jpg" width="100"/>
+	</label>
+	<img src="N4898.jpg"/>
+	
+	<input type="radio" name="slide_switch" id="id3"/>
+	<label for="id3">
+		<img src=""Naruto-Shippuden-Ultimate-Ninja (1).jpg"" width="100"/>
+	</label>
+	<img src=""Naruto-Shippuden-Ultimate-Ninja (1).jpg"g"/>
+	
+</div>
+    * {margin: 0; padding: 0;}
+body {background: #ccc;}
 
-#slider{
-    overflow: hidden;
+.slider{
+	width: 640px;
+	position: relative;
+	padding-top: 320px; 
+	
+	margin: 100px auto;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
 }
-#slider figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-}
-#slider figure img{
-        width: 20%
-        float: left;
-}
-
-@keyframes slider {
-        0%  {
-            left: 0;
-        }
-        20% {
-            left: 0;
-        }
-        25% {   
-            left: -100%;
-        }
-        45% {
-            left: -100%;
-        }
-        50% {
-            left: -200%;
-        }
-        70% {
-            left: -200%;
-        }
+.slider>img{
+	position: absolute;
+	left: 0; top: 0;
+	transition: all 0.5s;
 }
 
-</style>
-</head>
-<body>
+.slider input[name='slide_switch'] {
+	display: none;
+}
 
-  <div id="slider">
-    <figure>
-      <img src= "Naruto-Shippuden-Ultimate-Ninja (1).jpg" width= "1800">
-      <img src= "N4898.jpg" width= "1800">
-      <img src= "48e35398.0.jpg" width= "1800">
-    </figure>
-  </div>     
+.slider label {
+	margin: 18px 0 0 18px;
+	border: 3px solid #999;
+	
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.6;
+}
+
+.slider label img{
+	display: block;
+}
+    .slider input[name='slide_switch']:checked+label {
+	border-color: #666;
+	opacity: 1;
+}
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1.1);
+}
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
 </body>
 </html>
     
