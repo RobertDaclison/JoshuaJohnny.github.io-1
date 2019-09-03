@@ -219,6 +219,41 @@ function showSlides() {
   setTimeout(showSlides, 7000); // Change image every 7 seconds
 }
 </script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+
+<body>
+
+<h2> Music </h2>
+<p> Music is my crutches that helps walk me down the road of life. There has never been a day where I went on without listening to a song. I will always be listening to music. I'm a listener of all genres as I love to enlarge my playlist. Typically I listen to Pop, Rap, and recently jumped on the Kpop train. These are the very few genres I listen to.</p>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="1140439-summer-artists-2011-617-409.jpg" style="width:100%">
+  <img class="mySlides" src="rs-rap-on-radio-v2-1597d730-b984-456e-b500-187e3f925da0.jpg" style="width:100%">
+  <img class="mySlides" src="twice-breakthrough.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
     
     
