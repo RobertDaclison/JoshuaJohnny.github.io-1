@@ -1,3 +1,4 @@
+<style>
 h1 {
   font-size: 70px;
   text-align: center;
@@ -10,6 +11,7 @@ p {
   text-align: center;
 }
 </style>
+
 <style>
 ul {
   list-style-type: none;
@@ -36,16 +38,16 @@ li a:hover {
 }
 </style>
 </head>
-<body>
 
+<body>
 <ul>
   <li><a href="https://joshuajohnny.github.io/">Home</a></li>
   <li><a href="/AboutMe.html">About Me</a></li>
   <li><a href="/Portfolio.html">Portfolio</a></li>
   <li><a href="/Goals.html">Goals</a></li>
 </ul>
-
 </body>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
