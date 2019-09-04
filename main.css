@@ -76,7 +76,7 @@ body {
   background-color: #ddd;
   color: black;
 }
-/* Create three equal columns that floats next to each other */
+ /* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
@@ -94,5 +94,11 @@ body {
     width: 100%;
   }
 }
-</style>
-</head>
+<div class="row">
+  <div class="column">
+</div>
+  <div class="column">
+</div>
+   <div class="column">
+  </div>
+</div>
