@@ -1,4 +1,4 @@
-<style>
+
 h1 {
   font-size: 70px;
   text-align: center;
@@ -10,9 +10,8 @@ p {
   font-size: 24px;
   text-align: center;
 }
-</style>
 
-<style>
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -36,21 +35,19 @@ li a:hover {
     .active {
   background-color: #4CAF50;
 }
-</style>
-</head>
 
-<body>
+
+
 <ul>
   <li><a href="https://joshuajohnny.github.io/">Home</a></li>
   <li><a href="/AboutMe.html">About Me</a></li>
   <li><a href="/Portfolio.html">Portfolio</a></li>
   <li><a href="/Goals.html">Goals</a></li>
 </ul>
-</body>
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
 * {
   box-sizing: border-box;
 }
@@ -100,5 +97,4 @@ body {
     width: 100%;
   }
 }
-</style>
-</head>
+
