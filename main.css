@@ -2,11 +2,9 @@ h1 {
   font-size: 70px;
   text-align: center;
 }
-
 h2 {
   font-size: 40px;
 }
-
 p {
   font-size: 24px;
   text-align: center;
@@ -20,11 +18,9 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -32,7 +28,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
@@ -41,7 +36,18 @@ li a:hover {
 }
 </style>
 </head>
+<body>
 
+<ul>
+  <li><a href="https://joshuajohnny.github.io/">Home</a></li>
+  <li><a href="/AboutMe.html">About Me</a></li>
+  <li><a href="/Portfolio.html">Portfolio</a></li>
+  <li><a href="/Goals.html">Goals</a></li>
+</ul>
+
+</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {
   box-sizing: border-box;
@@ -74,7 +80,7 @@ body {
   background-color: #ddd;
   color: black;
 }
- /* Create three equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
@@ -92,11 +98,5 @@ body {
     width: 100%;
   }
 }
-<div class="row">
-  <div class="column">
-</div>
-  <div class="column">
-</div>
-   <div class="column">
-  </div>
-</div>
+</style>
+</head>
